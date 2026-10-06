@@ -7,9 +7,18 @@ This repository contains a high-performance, fully vectorized finite difference 
 
 ## Project Structure
 
-* **src/wave_solver.py**: Core simulation script utilizing optimized NumPy array slicing.
-* **notebooks/colab_runtime.ipynb**: Interactive Jupyter/Google Colab notebook with live plotting cells.
-* **report/**: Source LaTeX files (.tex) and exported simulation figures for project documentation.
+```text
+wave-propagation-2d/
+├── src/
+│   └── wave_solver.py       # Core simulation script utilizing NumPy array slicing
+├── notebooks/
+│   └── colab_runtime.ipynb  # Interactive Google Colab notebook with plotting cells
+├── report/
+│   ├── figures/             # Saved .png wave snapshots for report documentation
+│   └── main.tex             # Project report source LaTeX file
+├── README.md                # Repository documentation manual
+└── .gitignore               # Standard Python ignore file to exclude cached data
+```
 
 ## Physical and Numerical Specifications
 
